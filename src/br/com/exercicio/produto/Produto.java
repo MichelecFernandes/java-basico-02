@@ -7,10 +7,6 @@ public class Produto {
         this.valor = valor;
     }
 
-    public double getValor() {
-        return valor;
-    }
-
     public void obterValor(){
         System.out.println("O valor do produto é " + this.valor);
 
